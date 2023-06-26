@@ -1,0 +1,7 @@
+The files contains the data extracted from molecular dynamics simulation of 8 monomer long P3HT.
+
+"includecrossdist_allparam_middlepair.txt" contains all the distances and angles between 2 P3HT monomers and their corresponding electronic coupling values.
+The data is first used to find the best features for building a machine learning model in the script "feature_importance.ipynb".
+Next, the most import features are used to build a machine learning model as shown in the python script: "SVR_anneal_pred_data_import.ipynb"
+
+The electronic couplings are predicted for other thiophene thiophene neighbors extracted from molecular dynamics simulation at temperatures from 600K to 300K.
